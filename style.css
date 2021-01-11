@@ -40,13 +40,16 @@
 }
 
 /* Text editting */
+.center {
+  text-align: center;
+}
 body {
-    background-color: #ffffff;
+    background-color: #BC6FF1;
 }
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    color: #545454;
+    color: #52057B;
 }
 
 p {
@@ -55,14 +58,18 @@ p {
 
 /* Top section of the webpage */
 .header {
-    background-color: #ffb198;   /* Use Secondary color */
+    background-color: #000000;   /* Use Secondary color */
     color: #ffffff;
     text-align: center;
     font-size: 32px;
     padding: 15px;
+    width: 100%;
 }
 
-
+.indent { 
+  text-indent: 12px;
+  font-size: 14px;
+}
 /* Navigation section of the webpage */
 .menu ul {
     list-style-type: none;
@@ -73,19 +80,19 @@ p {
 .menu a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
-    color: #ffffff;
-    background-color: #e7717d;   /* Use Main block color */
+    color: #BC6FF1;
+    background-color: #000000;   /* Use Main block color */
     padding: 8px;
     margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
     display: block;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    text-align: center;
 }
 
 .menu a:hover {
-    background-color: #ffb198;   /* Use Secondary color */
+    background-color: #696969;   /* Use Secondary color */
 }
 
 /* Set the color for the "back to top" links */
@@ -100,11 +107,11 @@ p {
 
 /* Bottom section of the webpage */
 .footer {
-    background-color: #e7717d;   /* Use Main Block color */
+    background-color: #52057B;   /* Use Main Block color */
     color: #ffffff;
     text-align: center;
-    font-size: 12px;
-    padding: 15px;
+    font-size: 8px;
+    padding: 10px;
 }
 
 /* image editting */
